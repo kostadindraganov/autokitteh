@@ -25,15 +25,15 @@ services:
       # default value is false, enable if your temporal server requires tls
       # if tls is enabled, you must provide either certificate and key inline or as file paths
       # if you provide both, the inline certificate takes precedence and the files are ignored
-      AK_TEMPORALCLIENT__TLS__ENABLED: "true"
+      # AK_TEMPORALCLIENT__TLS__ENABLED: "true"
       # inline certificate
-      AK_TEMPORALCLIENT__TLS__CERTIFICATE: "<inline certificate>"
+      # AK_TEMPORALCLIENT__TLS__CERTIFICATE: "<inline certificate>"
       # inline key
-      AK_TEMPORALCLIENT__TLS__KEY: "<inline prinvate key>"
+      # AK_TEMPORALCLIENT__TLS__KEY: "<inline prinvate key>"
       # Certificate as path
-      AK_TEMPORALCLIENT__TLS__CERTIFICATE_FILE_PATH: "<path>"
+      # AK_TEMPORALCLIENT__TLS__CERTIFICATE_FILE_PATH: "<path>"
       # Key as path
-      AK_TEMPORALCLIENT__TLS__KEY_FILE_PATH: "<path>"
+      # AK_TEMPORALCLIENT__TLS__KEY_FILE_PATH: "<path>"
       # Can be either postgres or sqlite, default is sqlite
       AK_DB__TYPE: "postgres"
       # for sqlite, can be sqlite://<path_to_file> in case you want a persistance sqlite, otherwise the default is in memory
